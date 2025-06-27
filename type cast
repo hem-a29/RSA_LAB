@@ -1,0 +1,9 @@
+fn main() {
+    let x: i32 = 42;
+    let y: f64 = x as f64;
+    let z: u8 = y as u8;
+
+    println!("x (i32) = {}", x);
+    println!("y (f64) = {}", y);
+    println!("z (u8) = {}", z);
+}
